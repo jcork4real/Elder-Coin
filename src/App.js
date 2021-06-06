@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './elder-coin.png';
 import './App.css';
 
 function App() {
@@ -6,16 +6,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h1>
+          Welcome to Elder Coin. Biiiitch.
+        </h1>
+        <p>(site currently under construction)</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/jcork4real"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Get Started Now
         </a>
       </header>
     </div>
