@@ -110,8 +110,10 @@ export const Img = styled.img`
     padding-right: 0;
 
     @media screen and (max-width: 768px){
-       display: none;
-        
+       display: flex;
+       width: 400px;
+       height: 400px;
+       
     }
 
 
