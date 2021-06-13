@@ -17,7 +17,7 @@ border: solid white;
     align-items: center;
     transition: all 0.2s ease-in-out;
     z-index: 4;
-    margin-top: 200px;
+    margin-top: 10px;
 
     &:hover {
         transition: all 0.2s ease-in-out;

@@ -103,8 +103,8 @@ export const ImgWrap = styled.div`
 `
 export const Img = styled.img`
     /* width: 100% auto; */
-    width: 600px;
-    height: 600px;
+    width: 550px;
+    height: 550px;
 
     margin: 0 0 10px 0;
     padding-right: 0;
