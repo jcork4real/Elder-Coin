@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to send unlimited prayer coins without getting charged any fees',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-1.svg').default,
+    img: require('../../images/moroni-coin.svg').default,
     alt: 'PiggyBank',
     dark: true,
     primary: true,
