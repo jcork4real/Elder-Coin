@@ -8,10 +8,12 @@ import {
     HeroH1, HeroP, 
     HeroBtnWrapper, 
     ArrowForward, 
-    ArrowRight
+    ArrowRight,
+    ImgBg
 } 
 from './HeroElements'
 import {Button} from '../ButtonElement'
+import img from '../../images/pride-month-hero.svg'
 
 
 const HeroSection = () => {
@@ -24,7 +26,8 @@ const HeroSection = () => {
     return (
      <HeroContainer>
          <HeroBg>
-             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+             {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
+             <ImgBg src={img}/>
          </HeroBg>
          <HeroContent>
              <HeroH1>JUST A WHOLESOME COIN FOR THE FAMILY</HeroH1>
